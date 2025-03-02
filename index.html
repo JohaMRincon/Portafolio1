@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <main class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#"><img src="./Img/jrLogo.jpg" alt=""></a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">Inicio</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">Sobre mi</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">Habilidades</a></li>
+                    <li><a href="#contenedorPortafolio" onclick="seleccionar()">Portafolio</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </main>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/joha2.jpg" alt="">
+            </div>
+            <h1>Johana Murillo Rincon</h1>
+            <h2>Desarrolladora Full Stack</h2>
+            <p>"Innovación en cada línea de código, transformando ideas en soluciones que perduran y experiencias digitales de valor."</p>
+            <div class="redes">
+                <a href="https://github.com/JohaMRincon" target="_blank"><i class="fa-brands fa-github"></i></i></a>
+                <a href="https://www.linkedin.com/in/johana-murillo-rincon-fullstack-developer/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+              
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p>¡Hola! Soy Johana, un desarrolladora web full stack comprometida con crear soluciones digitales que impulsen tus proyectos al siguiente nivel. Mi misión es entender tus necesidades y convertirlas en aplicaciones modernas, funcionales y visualmente atractivas. Juntos podemos llevar tus ideas más allá de lo esperado. Mi enfoque siempre ha sido crear aplicaciones web que sean intuitivas y fáciles de usar, con una atención especial a los detalles y la experiencia del usuario. Me considero una persona proactiva, creativa, y orientada a resultados, siempre abierta a aprender de nuevos retos.<br> Si te gustaría saber más sobre mi trabajo o cómo puedo contribuir a tu próximo proyecto, ¡no dudes en ponerte en contacto conmigo!</p>
+       
+
+            <div class="fila">
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="intereses">
+                            <span class="material-icons">
+                              devices
+                              </span>
+                              <span>DESARROLLO DE INTERFASES</span>
+                          </div>
+                          <div class="intereses">
+                            <span class="material-icons">
+                              code
+                              </span>
+                              <span>PROGRAMACIÓN FULL STACK</span>
+                          </div>
+                          <div class="intereses">
+                            <span class="material-icons">
+                              table_chart
+                              </span>
+                              <span>GESTIÓN DE DATOS</span>
+                          </div>
+                          <div class="intereses">
+                            <span class="material-icons">
+                              rocket_launch
+                              </span>
+                              <span>INNOVACIÓN TECNOLÓGICA</span>
+                          </div>
+                      </div>
+                    </div>
+                    
+
+                <!-- pasatiempos -->
+                <div class="col">
+                    <h3>Hobies</h3>
+                    <div class="contenedor-pasatiempos">
+                        <div class="pasatiempos">
+                          <span  class="material-icons">
+                            self_improvement
+                            </span>
+                            <span>MEDITACIÓN</span>
+                        </div>
+                        <div class="pasatiempos">
+                          <span class="material-icons">
+                            podcasts
+                            </span>
+                            <span>PODCASTS</span>
+                        </div>
+                        <div class="pasatiempos">
+                          <span class="material-icons">
+                            flight
+                            </span>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="pasatiempos">
+                          <span class="material-icons">
+                            sports_gymnastics
+                            </span>
+                            <span>ACROYOGA</span>
+                        </div>
+                        <div class="pasatiempos">
+                          <span class="material-icons">
+                            hiking
+                            </span>
+                            <span>SENDERISMO</span>
+                        </div>
+                        <div class="pasatiempos">
+                          <span class="material-icons">
+                            auto_stories
+                            </span>
+                            <span>LIBROS</span>
+                        </div>
+                        <div class="pasatiempos">
+                          <span class="material-icons">
+                            psychology
+                            </span>
+                            <span>DESARROLLO <br>  PERSONAL</span>
+                        </div>
+                        <div class="pasatiempos">
+                          <span class="material-icons">
+                            soup_kitchen
+                            </span>
+                            <span>COCINA</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <button>
+              <a href="./doc/cv Johana Marzo.pdf" download> 
+                  Descargar CV 
+                  <i class="fa-solid fa-download"></i>
+                  <span class="overlay"></span>
+              </a>
+          </button>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Habilidades</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Habilidades tecnicas</h3>
+                    <div class="skill">
+                        <span class="tipoHabilida">Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span class="tipoHabilida">HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span class="tipoHabilida">Java</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span class="tipoHabilida">MySQL</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span class="tipoHabilida">Python</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>55%</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Habilidades blandas</h3>
+                    <div class="skill">
+                        <span class="tipoHabilida">Comunicación asertiva</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span class="tipoHabilida">Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span class="tipoHabilida">Atencion al detalle</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span class="tipoHabilida">Adaptabilidad y aprendizaje continuo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span class="tipoHabilida">Pensamiento critico, análisis y resolucion de problemas </span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>94%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTAFOLIO -->
+    <section id="contenedorPortafolio" class="contenedorPortafolio">
+        <div class="contenido-seccion">
+            <h2>Portafolio</h2>
+            <main class="fila">
+                <section class="col izquierda">
+                    <article class="item izq">
+                        <div id="portfolio" class="portfolio">
+                            <div class="contenido-seccion">   
+                                <div class="galeria">
+                                    <div class="proyecto">
+                                        <img src="./Img/proyecto1.elevia.jpg" alt="">
+                                        <div class="overlay">
+                                            <h3>Elevia</h3>
+                                            <p>e-commerce</p>
+                                            <p class="descripcion">Participé en la implementación Full Stack de un e-commerce para una marca de moda y joyería, utilizando herramientas como HTML, CSS,
+                                                JavaScript, Java y SQL. Colaboré en el desarrollo de funcionalidades clave, optimizando la experiencia del usuario, la eficiencia del sistema y la
+                                                gestión de datos.
+                                                </p>
+                                                <div class="icons">
+                                                    <div class="github-container">
+                                                        <a id="github-link"><i class="fa-brands fa-github"></i></a>
+                                                        <div class="hidden-icons">
+                                                            <a href="https://github.com/JaviSGalindo/Back-End-Elevia.git" target="_blank">Back</a>
+                                                            <a href="https://github.com/JaviSGalindo/Generation-7-Final-Proyect.git" target="_blank">Front</a>
+                                                        </div>
+                                                    </div>
+                                                    <a href="https://javisgalindo.github.io/Generation-7-Final-Proyect/Catalogo/catalog.html" target="_blank"><i class="fa-solid fa-eye"></i></a>
+                                                </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </article>
+                </section>
+
+                <section class="col derecha">   
+                    <article class="item der">
+                        <div id="portfolio" class="portfolio">
+                            <div class="contenido-seccion">   
+                                <div class="galeria">
+                                    <div class="proyecto">
+                                        <img src="img/p1.jpg" alt="">
+                                        <div class="overlay">
+                                            <h3>Titulo_Proyecto</h3>
+                                            <p>tipo</p>
+                                            <p class="descripcion">Descripción</p>
+                                            <div class="icons">
+                                                <div class="github-container">
+                                                    <a href="#" id="github-link"><i class="fa-brands fa-github"></i></a>
+                                                    <div class="hidden-icons">
+                                                        <a href="https://github.com/user1" target="_blank">Back</a>
+                                                        <a href="https://github.com/user2" target="_blank">Front</a>
+                                                    </div>
+                                                </div>
+                                                <a href="#"><i class="fa-solid fa-eye"></i></a>
+                                            </div>
+                                        </div>                                    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </article>                  
+                </section>
+            </main>
+        </div>
+    </section>
+
+ 
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+               <p>Si tienes un proyecto en mente, una idea increíble o simplemente quieres conversar sobre desarrollo web, <br><br>¡estoy aquí para escucharte! Escríbeme y hagamos que las cosas pasen.</p>
+
+           
+                <div class="col">
+                    <img src="img/comunicacion.jpg" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Medellín, Colombia
+                            </li>
+                            <li>
+                                <a  href="mailto:joharincon215@gmail.com?subject=Hola%20Johana&body=Hola,%20quiero%20ponerme%20en%20contacto%20contigo."
+                                target="_blank"><i class="fa-regular fa-envelope"></i></i> E-mail</a>
+                            </li>
+                            <li>
+                                <a href="https://w.app/swtrti" target="_blank"><i class="fa-brands fa-whatsapp"></i></i> Whats App</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+          <p> Todos lo derechos reservados</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html
