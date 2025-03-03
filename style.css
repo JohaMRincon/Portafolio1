@@ -70,7 +70,7 @@ html {
       rgba(30, 35, 38, 0.8),
       rgba(30, 35, 38, 1)
     ),
-    url(/img/code2.jpg);
+    url(./Img/code2.jpg);
   background-size: cover;
   height: 100vh;
   color: #fff;
@@ -588,7 +588,7 @@ p {
       rgba(30, 35, 38, 0.9),
       rgba(30, 35, 38, 1)
     ),
-    url(img/caontactame.jpg);
+    url(/Img/caontactame.jpg);
   background-color: #1e2326;
   color: #fff;
   padding: 60px 0;
